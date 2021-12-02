@@ -1,0 +1,9 @@
+# Site settings
+title: SAMT/Conseil scientifique
+author:
+  name: Nezzal Abdelmaalek
+  email: presidentconseilscientifique@samtalgerie.com
+description: "Blog du conseil scientifique de l'association à caractère scientifique SAMT: Société Algerienne de méecine du travail"
+
+# Build settings
+remote_theme: jekyll/minima
