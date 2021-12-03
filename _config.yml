@@ -1,9 +1,9 @@
 # Site settings
-title: SAMT/Conseil scientifique
+title: Great New Blog Title
 author:
-  name: Nezzal Abdelmaalek
-  email: presidentconseilscientifique@samtalgerie.com
-description: "Blog du conseil scientifique de l'association à caractère scientifique SAMT: Société Algerienne de méecine du travail"
+  name: Evan Will
+  email: your-email@domain.com
+description: "Great site about Jekyll on GH-Pages."
 
 # Build settings
 remote_theme: jekyll/minima
