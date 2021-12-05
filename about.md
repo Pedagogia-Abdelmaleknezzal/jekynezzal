@@ -25,7 +25,7 @@ It is your opportunity to let us know all the details "about" your project:
 
 ## Large Animals are Better
 
-{% for animal in jekynezzal.data.animals %}
+{% for animal in site.data.animals %}
 {% if animal.size == "large" %}- <strong style="color: {{ animal.color }};">{{ animal.name }}</strong>
 {% else %}- <small>{{ animal.name }}</small>
 {% endif %}
@@ -33,7 +33,7 @@ It is your opportunity to let us know all the details "about" your project:
 
 ## List of Small Animals
 
-{% assign small_animals = jekynezzal.data.animals | where: "size", "small" %}
+{% assign small_animals = site.data.animals | where: "size", "small" %}
 {% for animal in small_animals %}
 - {{ animal.name | upcase }}
 {% endfor %}
